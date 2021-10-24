@@ -1,0 +1,22 @@
+{
+  "name": "ctest2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "japanese-holidays": "^1.0.10",
+    "moment": "^2.29.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.59.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./front.js --mode development",
+    "start": "webpack serve --mode development"
+  },
+  "author": "",
+  "license": "ISC"
+}
